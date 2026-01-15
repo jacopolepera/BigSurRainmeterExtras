@@ -1,0 +1,17 @@
+; ============================================================
+;  INCOLLA QUI LE URL (endpoint HTTP/JSON)
+; ============================================================
+; 1) Switch ON/OFF lampada (un SOLO url: toggle ad ogni click)
+UrlPowerToggle=https://www.virtualsmarthome.xyz/url_routine_trigger/activate.php?trigger=dd0394ad-0749-4886-ab8e-955df29bdcd0&token=5c0638b5-3129-48a9-b08e-d647aef1265b&response=json
+
+; 2) Switch temperatura (un SOLO url: toggle temperatura ad ogni click)
+UrlTempToggle=https://www.virtualsmarthome.xyz/url_routine_trigger/activate.php?trigger=238f00c6-0b90-4a4e-9f21-4218656e7db0&token=365247fe-0b34-4a97-938a-ab9676163a11&response=json
+
+; 3) Luminosità MIN (stato 1 dello slider)
+UrlBrightMin=https://www.virtualsmarthome.xyz/url_routine_trigger/activate.php?trigger=2f58119e-c658-46fb-9f47-428446f19279&token=c06ea1bf-1bcc-4f0c-8b4a-c6a421186b75&response=json
+
+; 4) Luminosità 50% (stato 2 dello slider)
+UrlBright50=https://www.virtualsmarthome.xyz/url_routine_trigger/activate.php?trigger=888e793e-8b0c-46fb-af3a-c374822aced0&token=dbf2f1cb-5d32-4811-8e53-f66db93f7980&response=json
+
+; 5) Luminosità MAX (stato 3 dello slider)
+UrlBrightMax=https://www.virtualsmarthome.xyz/url_routine_trigger/activate.php?trigger=11844992-2b1e-49f7-a84b-1856207d998a&token=4bbd3185-6159-40bf-aefb-ab15f132fdde&response=json
